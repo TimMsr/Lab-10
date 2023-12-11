@@ -20,6 +20,7 @@ public class Lab10 {
                 return;
             }
             //Not completely sure how to reduce the redundency, hence I adapted some statements.
+            //Demonstrators and I were not able to commit the changes when uploading to gitHub.
             double a, b, r;
 
             if (input.equals("square")) {
@@ -189,6 +190,7 @@ public class Lab10 {
     }
 
 public static void Q3() {
+    //Question 3 is already functioning correctly
     System.out.println("Q3: Enter how many numbers you want to check for primality: ");
     int n = Integer.parseInt(scan.nextLine());
     int counter = 0;
